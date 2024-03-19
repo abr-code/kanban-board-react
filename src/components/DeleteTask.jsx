@@ -35,7 +35,7 @@ export default function DeleteTask({ updateList, tasksList, nearestIdState }) {
       onDrop={(e) => handleDrop(e)}
       onDragLeave={(e) => handleDragLeave(e)}
       className={`flex flex-col gap-2 ${active ? 'bg-red-400' : 'bg-purple-heart-300'} w-1/4  rounded-md p-2 min-h-16 select-none`} >
-      <h2 className='text-2xl font-bold text-center text-purple-heart-800'> Delete 🗑️</h2>
+      <h2 className='text-2xl font-bold text-center text-purple-heart-800'> Delete </h2>
       <div onDragOver={(e) => handleDragOver(e)} className={`text-4xl text-purple-heart-800 m-auto ${active ? 'animate-bounce' : ''}`}>🗑️</div>
     </div >
   )
